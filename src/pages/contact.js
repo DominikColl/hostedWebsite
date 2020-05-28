@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import API from '../API'
 import '../styles.css'
+
 const encode = (data) => {
     return Object.keys(data)
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -49,5 +50,6 @@ class Landing extends Component {
         );
     }
 }
+
 
 export default Landing;

@@ -29,10 +29,19 @@ class Landing extends Component {
             <>
                 <h1>Form</h1>
                 <form name="contact" method="POST" data-netlify="true">
-                    <input type='text' name="name" id="name" onChange={this.handleInputChange} placeholder='Name'></input>
-                    <input type='text' name="email" id="email" onChange={this.handleInputChange} placeholder='Email'></input>
-                    <textarea type='text' name="reason" id="reason" onChange={this.handleInputChange} placeholder=''></textarea>
-                    <button type='submit'>Submit</button>
+                    <p>
+                        <label>Your Name: <input type="text" name="name" /></label>
+                    </p>
+                    <p>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+
+                    <p>
+                        <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
                 </form>
             </>
         );

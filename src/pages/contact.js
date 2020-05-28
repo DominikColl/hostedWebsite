@@ -28,11 +28,11 @@ class Landing extends Component {
         return (
             <>
                 <h1>Form</h1>
-                <form>
+                <form name="contact" method="POST" data-netlify="true">
                     <input type='text' name="name" id="name" onChange={this.handleInputChange} placeholder='Name'></input>
                     <input type='text' name="email" id="email" onChange={this.handleInputChange} placeholder='Email'></input>
                     <textarea type='text' name="reason" id="reason" onChange={this.handleInputChange} placeholder=''></textarea>
-                    <button onClick={this.createContact}>Submit</button>
+                    <button type='submit'>Submit</button>
                 </form>
             </>
         );

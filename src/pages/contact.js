@@ -25,7 +25,7 @@ class Landing extends Component {
         return (
             <>
                 <h1>Form</h1>
-                <form onSubmit={this.handleSubmit} name='contact' method='POST' data-netlify="true" >
+                <form onSubmit={this.handleSubmit} name="contact" method='POST' data-netlify="true" >
                     <p>
                         <label>
                             Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />

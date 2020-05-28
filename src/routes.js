@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Landing from './pages/landing'
 import About from './pages/about'
 import Contact from './pages/contact'
+
 class Routes extends Component {
     state = {}
     render() {

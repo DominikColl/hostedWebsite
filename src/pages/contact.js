@@ -5,7 +5,7 @@ const encode = (data) => {
     return Object.keys(data)
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
         .join("&");
-  }
+}
 class Landing extends Component {
     state = { name: '', email: '', message: '' }
     handleSubmit = e => {
@@ -25,7 +25,7 @@ class Landing extends Component {
         return (
             <>
                 <h1>Form</h1>
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.handleSubmit} name='contact' netlify >
                     <p>
                         <label>
                             Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />

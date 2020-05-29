@@ -213,5 +213,9 @@ text-indent: 5px;
     margin-bottom: 2rem;
 }
 #about p{
-    line-height: 1.6
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+.detailImgCont img{
+    width: 40%;
 }

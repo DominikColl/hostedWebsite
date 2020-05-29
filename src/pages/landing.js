@@ -8,9 +8,7 @@ import uiPic from '../img/ui.png'
 import webPic from '../img/web.png'
 import cssPic from '../img/css.png'
 import Particles from 'react-particles-js';
-
-// import '../particles/app'
-
+import { Link } from 'react-router-dom'
 class Landing extends Component {
     state = {}
     render() {
@@ -56,10 +54,11 @@ class Landing extends Component {
                 <section id='projectSection'>
                     <h2>Projects</h2>
                     <ul id='projectList'>
-                        <li id='quizApp'><p>Quiz App</p></li>
-                        <li id='livefm'><p>LiveFm API</p></li>
-                        <li id='task'><p>Task Manager</p></li>
-                        <li id='twitClone'><p>Twitter Clone</p></li>
+
+                        <li id='quizApp'><Link to='/quizapp'><p>Quiz App</p></Link></li>
+                        <li id='livefm'><Link to='/liveFmAPI'><p>LiveFm API</p></Link></li>
+                        <li id='task'><Link to='/taskmanager'><p>Task Manager</p></Link></li>
+                        <li id='twitClone'><Link to='/twitterclone'><p>Twitter Clone</p></Link></li>
                     </ul>
                 </section>
                 <section id='blogSection'>

@@ -206,3 +206,12 @@ text-indent: 5px;
     width:90px;
     height:90px;
 }
+#about h2{
+    margin-bottom: 2rem;
+}
+#about img{
+    margin-bottom: 2rem;
+}
+#about p{
+    line-height: 1.6
+}

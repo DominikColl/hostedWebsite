@@ -96,8 +96,6 @@ section ul{
     display: flex;
 position: relative;
     margin: 1rem;
-    transition: top ease 3s;
-    
 }
 #footer{
     background: #1f2124;

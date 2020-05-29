@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import { FaLinkedin, FaGithub, FaClipboard } from 'react-icons/fa';
+
 import '../styles.css'
 class Footer extends Component {
 
@@ -8,9 +10,9 @@ class Footer extends Component {
         return (
             <div id='footer'>
                 <ul id='footerList'>
-                    <li>Resume</li>
-                    <li>Github</li>
-                    <li>LinkedIn</li>
+                    <li><FaClipboard /></li>
+                    <li><FaGithub /></li>
+                    <li><FaLinkedin /></li>
                 </ul>
             </div >);
     }

@@ -54,19 +54,19 @@ class Landing extends Component {
                 <section id='projectSection'>
                     <h2>Projects</h2>
                     <ul id='projectList'>
-                        <li id='quizApp'><Link to='/quizapp'><p>Quiz App</p></Link></li>
-                        <li id='livefm'><Link to='/liveFmAPI'><p>LiveFm API</p></Link></li>
-                        <li id='task'><Link to='/taskmanager'><p>Task Manager</p></Link></li>
-                        <li id='twitClone'><Link to='/twitterclone'><p>Twitter Clone</p></Link></li>
+                        <Link to='/quizapp'> <li id='quizApp'><p>Quiz App</p></li></Link>
+                        <Link to='/liveFmAPI'>  <li id='livefm'><p>LiveFm API</p></li></Link>
+                        <Link to='/taskmanager'><li id='task'><p>Task Manager</p></li></Link>
+                        <Link to='/twitterclone'><li id='twitClone'><p>Twitter Clone</p></li></Link>
                     </ul>
                 </section>
                 <section id='blogSection'>
                     <h2>Tutorials</h2>
                     <ul id='blogList'>
-                        <li id='vc'><p>Version Control</p></li>
-                        <li id='mvc'><p>MVC</p></li>
-                        <li id='reactjs'><p>ReactJs Intro</p></li>
-                        <li id='particles'><p>React Particles</p></li>
+                        <Link to='/versioncontrol'> <li id='vc'><p>Version Control</p></li></Link>
+                        <Link to='/mvc'><li id='mvc'><p>MVC</p></li></Link>
+                        <Link to='/'> <li id='reactjs'><p>ReactJs Intro</p></li></Link>
+                        <Link to='/'> <li id='particles'><p>React Particles</p></li></Link>
                     </ul>
                 </section>
                 <section id='skillsSection'>

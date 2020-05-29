@@ -7,6 +7,8 @@ import QuizAppDetail from './pages/quizappDetail'
 import LiveFmDetail from './pages/livefmdetail'
 import TaskManager from './pages/taskmanager'
 import TwitterClone from './pages/twitterclone'
+import VersionControl from './pages/versioncontrol'
+import MVC from './pages/mvc'
 class Routes extends Component {
     state = {}
     render() {
@@ -20,6 +22,9 @@ class Routes extends Component {
                     <Route exact path='/liveFmAPI' component={LiveFmDetail} />
                     <Route exact path='/taskmanager' component={TaskManager} />
                     <Route exact path='/twitterclone' component={TwitterClone} />
+                    <Route exact path='/versioncontrol' component={VersionControl} />
+                    <Route exact path='/mvc' component={MVC} />
+
                 </Switch>
             </div>
         );

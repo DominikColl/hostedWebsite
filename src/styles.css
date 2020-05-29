@@ -99,25 +99,34 @@ position: relative;
 }
 #footer{
     background: #1f2124;
+    
+    width:100%;
+   
 }
 #footerList{
     display: flex;
-   
+
     padding:15px 0px;
-    justify-content: flex-end;
+    justify-content: center;
 }
 #footerList li{
     margin-right: 15px;
 }
-
+#footerList li{
+    color:white;
+    font-size: 2rem;
+}
 #projectList li,#blogList li{
     border:3px solid #00c905;
     height: 160px;
-    width:60%;
+    width:86.7%;
     margin-right: 3%;
     position: relative;
     top:0;
     transition: top ease 1s;
+}
+#projectList a,#projectList a:visited,#blogList a,#blogList a:visited{
+    width:100%;
 }
 #projectList li:hover,#blogList li:hover{
     top:-15px;
@@ -165,7 +174,12 @@ text-indent: 5px;
     background-position: center;
 }
 #footerList{
-    margin-right: 43%;
+    margin-right: 44.4%;
+    /* border: 1px solid red; */
+    width:100%;
+    text-align: center;
+
+    /* text-align: center; */
 }
 #quizApp{
     background-image: url('./img/quizMaker.png');
@@ -203,7 +217,8 @@ text-indent: 5px;
     width: 100%;
     background-color: black;
     
-}
+} 
+
 #skillsList{
     text-align: center;
 }

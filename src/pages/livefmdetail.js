@@ -11,6 +11,14 @@ class LiveFmDetail extends Component {
                 <div class='detailImgCont'>
                     <img src={Img} alt='Quiz App' />
                     <h1>LiveFm API</h1>
+                    <section class='techUsedCont'>
+                        <ul>
+                            <li>ReactJs</li>
+                            <li>CSS</li>
+                            <li>Version Control</li>
+                            <li>API</li>
+                        </ul>
+                    </section>
                 </div>
             </Fragment>
 

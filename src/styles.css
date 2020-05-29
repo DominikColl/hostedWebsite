@@ -256,3 +256,6 @@ text-indent: 5px;
     border-bottom: 4px solid #ffffff;
     padding: 6px 0; 
   }
+  .techUsedCont ul{
+      border:none;
+  }

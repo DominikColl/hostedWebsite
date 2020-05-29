@@ -54,7 +54,6 @@ class Landing extends Component {
                 <section id='projectSection'>
                     <h2>Projects</h2>
                     <ul id='projectList'>
-
                         <li id='quizApp'><Link to='/quizapp'><p>Quiz App</p></Link></li>
                         <li id='livefm'><Link to='/liveFmAPI'><p>LiveFm API</p></Link></li>
                         <li id='task'><Link to='/taskmanager'><p>Task Manager</p></Link></li>

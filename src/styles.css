@@ -94,8 +94,10 @@ section ul{
 }
 #projectList,#blogList{
     display: flex;
-
+position: relative;
     margin: 1rem;
+    transition: top ease 3s;
+    
 }
 #footer{
     background: #1f2124;
@@ -109,14 +111,19 @@ section ul{
 #footerList li{
     margin-right: 15px;
 }
+
 #projectList li,#blogList li{
     border:3px solid #00c905;
     height: 160px;
     width:60%;
     margin-right: 3%;
     position: relative;
-   
+    top:0;
+    transition: top ease 1s;
 }
+#projectList li:hover,#blogList li:hover{
+    top:-15px;
+    }
 #projectList li p,#blogList li p {
     position: absolute;
     bottom: 0;
@@ -219,3 +226,20 @@ text-indent: 5px;
 .detailImgCont img{
     width: 40%;
 }
+
+.navLink {
+    transition: 0.3s ease;
+    /* background: #3fa46a; */
+    /* color: #ffffff; */
+    /* font-size: 20px; */
+    /* text-decoration: none; */
+    /* border-top: 4px solid #3fa46a; */
+    /* border-bottom: 4px solid #3fa46a; */
+    /* padding: 20px 0; */
+    /* margin: 0 5px; */
+  }
+  .navLink:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0; 
+  }

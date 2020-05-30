@@ -262,3 +262,46 @@ text-indent: 5px;
   #aboutP{
       font-size: 1.1rem;
   }
+  .techUsedCont{
+     display: flex;
+  }
+  .aboutProject{
+      /* display: inline-block;  */
+      /* border:1px solid blue; */
+      width: 40%;
+  }
+  .detailImgCont{
+      width:95%;
+      text-align: center;
+  }
+  .techUsedCont p{
+      /* display: inline-block; */
+      border: 1px solid red;
+      width: 40%;
+  }
+  .techUsedCont ul{
+      text-align: center;
+      width:30%;
+      -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+      padding-top: 2rem;
+  }
+  .desc,.techUsedCont ul{
+background-color: #1f2124;
+  }
+  
+  .App{
+    position: relative;
+    min-height: 100vh;
+  }
+ #footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    margin-bottom: -2rem;
+     /* padding-bottom: 40px; */
+  } 
+  #aboutP{
+      padding-bottom: 8rem;
+  } 

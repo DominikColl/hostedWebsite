@@ -70,22 +70,20 @@ class Landing extends Component {
                     </ul>
                 </section>
                 <section id='skillsSection'>
-                    <p>Skills Include</p>
+                    <h2>Skills Include</h2>
                     <ul id='skillsList'>
-                        <li><img class='skillIcons' src={JsPic} alt='Javascript' /><h2>Javascript</h2></li>
-                        <li><img class='skillIcons' src={reactPic} alt='ReactJs' /><h2>ReactJs</h2></li>
-                        <li><img class='skillIcons' src={htmlPic} alt='HTML' /><h2>HTML</h2></li>
-                        <li><img class='skillIcons' src={cssPic} alt='CSS' /><h2>CSS/SASS</h2></li>
-                        <li><img class='skillIcons' src={webPic} alt='Web Applications' /><h2>Web Applications</h2></li>
-                        <li><img class='skillIcons' src={uiPic} alt='UI' /><h2>UX</h2></li>
+                        <li><img class='skillIcons' src={JsPic} alt='Javascript' /><h3>Javascript</h3></li>
+                        <li><img class='skillIcons' src={reactPic} alt='ReactJs' /><h3>ReactJs</h3></li>
+                        <li><img class='skillIcons' src={htmlPic} alt='HTML' /><h3>HTML</h3></li>
+                        <li><img class='skillIcons' src={cssPic} alt='CSS' /><h3>CSS/SASS</h3></li>
+                        <li><img class='skillIcons' src={webPic} alt='Web Applications' /><h3>Web Applications</h3></li>
+                        <li><img class='skillIcons' src={uiPic} alt='UI' /><h3>UX</h3></li>
                     </ul>
                 </section>
                 <section id='about'>
                     <h2>About me Dominik Coll</h2>
-
                     <img id='aboutPic' src={i} alt='Dominik Coll' />
-
-                    <p>Hi! I am Dominik Coll a web designer/developer focused on crafting innovative and interactive user web experiences. Designing and Coding have been my passion since I started working with computers and have found a genuine interest in the collaborative opportunity that designing and coding provides when working with a client’s vision. My passion is to create beautifully designed, intuitive and functional websites. For the past 3 years, I have worked on developing digital platforms while maintaining an active interest in the latest technology that is utilized to promote your personal or company’s mission.
+                    <p id='aboutP'>Hi! I am Dominik Coll a web designer/developer focused on crafting innovative and interactive user web experiences. Designing and Coding have been my passion since I started working with computers and have found a genuine interest in the collaborative opportunity that designing and coding provides when working with a client’s vision. My passion is to create beautifully designed, intuitive and functional websites. For the past 3 years, I have worked on developing digital platforms while maintaining an active interest in the latest technology that is utilized to promote your personal or company’s mission.
 <br />
                         Beyond my passion for coding and designing, I enjoy the opportunity to travel and hike. </p>
                 </section>

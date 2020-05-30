@@ -11,6 +11,15 @@ class TwitterClone extends Component {
                 <div class='detailImgCont'>
                     <img src={Img} alt='Twitter Clone' />
                     <h1>Twitter Clone</h1>
+                    <section class='techUsedCont'>
+                        <ul>
+                            <li>ReactJs</li>
+                            <li>Node/Express</li>
+                            <li>Sequelize</li>
+                            <li>Version Control</li>
+                            <li>API</li>
+                        </ul>
+                    </section>
                 </div>
             </Fragment>
 

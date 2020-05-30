@@ -81,12 +81,12 @@ a{
 #attention h1{
     position: absolute;
     bottom: 0;
-    left: 17px;
+    /* left: 17px; */
     font-family: 'Nunito', sans-serif;
-    font-size: 1.3rem;
+    font-size: 2.8rem;
 }
 section ul{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     border-bottom: 3px solid #00c905;
 }
 #nav1,#nav2{
@@ -97,11 +97,12 @@ section ul{
 position: relative;
     margin: 1rem;
 }
+#projectSection{
+    margin-bottom: 2rem;
+}
 #footer{
     background: #1f2124;
-    
     width:100%;
-   
 }
 #footerList{
     display: flex;
@@ -242,17 +243,22 @@ text-indent: 5px;
 
 .navLink {
     transition: 0.3s ease;
-    /* background: #3fa46a; */
-    /* color: #ffffff; */
-    /* font-size: 20px; */
-    /* text-decoration: none; */
-    /* border-top: 4px solid #3fa46a; */
-    /* border-bottom: 4px solid #3fa46a; */
-    /* padding: 20px 0; */
-    /* margin: 0 5px; */
+
   }
   .navLink:hover {
     border-top: 4px solid #ffffff;
     border-bottom: 4px solid #ffffff;
     padding: 6px 0; 
+  }
+  .techUsedCont ul{
+      border:none;
+  }
+  h2{
+      font-size: 1.4rem;
+  }
+  #skillsList h3{
+      margin-top: 5px;
+  }
+  #aboutP{
+      font-size: 1.1rem;
   }

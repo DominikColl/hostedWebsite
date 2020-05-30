@@ -82,9 +82,7 @@ class Landing extends Component {
                 </section>
                 <section id='about'>
                     <h2>About me Dominik Coll</h2>
-
                     <img id='aboutPic' src={i} alt='Dominik Coll' />
-
                     <p id='aboutP'>Hi! I am Dominik Coll a web designer/developer focused on crafting innovative and interactive user web experiences. Designing and Coding have been my passion since I started working with computers and have found a genuine interest in the collaborative opportunity that designing and coding provides when working with a client’s vision. My passion is to create beautifully designed, intuitive and functional websites. For the past 3 years, I have worked on developing digital platforms while maintaining an active interest in the latest technology that is utilized to promote your personal or company’s mission.
 <br />
                         Beyond my passion for coding and designing, I enjoy the opportunity to travel and hike. </p>

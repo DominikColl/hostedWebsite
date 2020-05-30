@@ -102,9 +102,7 @@ position: relative;
 }
 #footer{
     background: #1f2124;
-    
     width:100%;
-   
 }
 #footerList{
     display: flex;

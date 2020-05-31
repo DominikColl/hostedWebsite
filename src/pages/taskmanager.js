@@ -8,11 +8,13 @@ class TaskManager extends Component {
     render() {
         return (
             <Fragment>
-                <div class='detailImgCont'>
+                <div className='detailImgCont'>
                     <img src={Img} alt='Task Manager' />
                     <h1>Task Manager</h1>
-                    <section class='techUsedCont'>
+                    <section className='techUsedCont'>
+
                         <ul>
+                            <h2>Tech Used</h2>
                             <li>HTML</li>
                             <li>SASS</li>
                             <li>UI</li>
@@ -20,7 +22,10 @@ class TaskManager extends Component {
                             <li>API</li>
                             <li>Version Control</li>
                         </ul>
+                        <p className='desc'> I built this Task Manager application to learn SASS and better my skills in CSS, UI, and UX. It is a simple Todo application where the user can make an objective and then build multiple tasks to complete the objective. This application was built using HTML5 and SASS you can see the progress as this application was built <a href='https://github.com/DominikColl/Task-Manager' class='alinks'>here</a> on the repo.
+</p>
                     </section>
+
                 </div>
             </Fragment>
 

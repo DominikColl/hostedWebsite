@@ -8,7 +8,7 @@ class MVC extends Component {
     render() {
         return (
             <Fragment>
-                <div class='detailImgCont'>
+                <div className='detailImgCont'>
                     <img src={Img} alt="MVC" />
                     <h1>MVC</h1>
                 </div>

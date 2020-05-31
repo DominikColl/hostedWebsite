@@ -8,7 +8,7 @@ class VersionControl extends Component {
     render() {
         return (
             <Fragment>
-                <div class='detailImgCont'>
+                <div className='detailImgCont'>
                     <img src={Img} alt='Version Control' />
                     <h1>Version Control</h1>
                 </div>

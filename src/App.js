@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <div className='appp' >
+        <div className='appp'>
           <Routes />
         </div>
         <Footer />

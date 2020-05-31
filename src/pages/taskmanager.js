@@ -12,7 +12,9 @@ class TaskManager extends Component {
                     <img src={Img} alt='Task Manager' />
                     <h1>Task Manager</h1>
                     <section class='techUsedCont'>
+
                         <ul>
+                            <h2>Tech Used</h2>
                             <li>HTML</li>
                             <li>SASS</li>
                             <li>UI</li>

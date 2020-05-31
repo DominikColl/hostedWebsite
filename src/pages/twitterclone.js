@@ -13,6 +13,7 @@ class TwitterClone extends Component {
                     <h1>Twitter Clone</h1>
                     <section class='techUsedCont'>
                         <ul>
+                            <h2>Tech Used</h2>
                             <li>ReactJs</li>
                             <li>Node/Express</li>
                             <li>Sequelize</li>

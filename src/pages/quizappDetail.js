@@ -14,7 +14,9 @@ class QuizAppDetail extends Component {
                     <h1>Quiz App</h1>
                     <div class='aboutCont'>
                         <section class='techUsedCont'>
+
                             <ul>
+                                <h2>Tech Used</h2>
                                 <li>ReactJs</li>
                                 <li>Node/Express</li>
                                 <li>Sequelize</li>

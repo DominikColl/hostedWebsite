@@ -63,10 +63,10 @@ class Landing extends Component {
                 <section id='blogSection'>
                     <h2>Tutorials</h2>
                     <ul id='blogList'>
-                        <Link to='/versioncontrol'> <li id='vc'><p>Version Control</p></li></Link>
-                        <Link to='/mvc'><li id='mvc'><p>MVC</p></li></Link>
-                        <Link to='/'> <li id='reactjs'><p>ReactJs Intro</p></li></Link>
-                        <Link to='/'> <li id='particles'><p>React Particles</p></li></Link>
+                        <Link to='/versioncontrol'> <li id='vc'><p>Version Control (Coming Soon!)</p></li></Link>
+                        <Link to='/mvc'><li id='mvc'><p>MVC (Coming Soon!)</p></li></Link>
+                        <Link to='/'> <li id='reactjs'><p>ReactJs Intro (Coming Soon!)</p></li></Link>
+                        <Link to='/'> <li id='particles'><p>React Particles (Coming Soon!)</p></li></Link>
                     </ul>
                 </section>
                 <section id='skillsSection'>

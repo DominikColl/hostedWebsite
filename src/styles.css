@@ -263,7 +263,9 @@ text-indent: 5px;
       font-size: 1.1rem;
   }
   .techUsedCont{
+      margin-top: 2rem;
      display: flex;
+     justify-content: space-evenly
   }
   .aboutProject{
       /* display: inline-block;  */
@@ -273,22 +275,29 @@ text-indent: 5px;
   .detailImgCont{
       width:95%;
       text-align: center;
+      margin-top: 2rem;
+  }
+  .detailImgCont img{
+      margin: 2rem;
   }
   .techUsedCont p{
       /* display: inline-block; */
-      border: 1px solid red;
+      /* border: 1px solid red; */
       width: 40%;
   }
   .techUsedCont ul{
       text-align: center;
-      width:30%;
-      -webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-      padding-top: 2rem;
+      width:40%;
+     
+   
   }
   .desc,.techUsedCont ul{
+    padding: 2rem;
+    border:3px solid #00c905;
 background-color: #1f2124;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
   }
   
   .App{

@@ -13,6 +13,7 @@ class LiveFmDetail extends Component {
                     <h1>LiveFm API</h1>
                     <section class='techUsedCont'>
                         <ul>
+                            <h2>Tech Used</h2>
                             <li>ReactJs</li>
                             <li>CSS</li>
                             <li>Version Control</li>

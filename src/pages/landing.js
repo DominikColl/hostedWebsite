@@ -72,12 +72,12 @@ class Landing extends Component {
                 <section id='skillsSection'>
                     <h2>Skills Include</h2>
                     <ul id='skillsList'>
-                        <li><img class='skillIcons' src={JsPic} alt='Javascript' /><h3>Javascript</h3></li>
-                        <li><img class='skillIcons' src={reactPic} alt='ReactJs' /><h3>ReactJs</h3></li>
-                        <li><img class='skillIcons' src={htmlPic} alt='HTML' /><h3>HTML</h3></li>
-                        <li><img class='skillIcons' src={cssPic} alt='CSS' /><h3>CSS/SASS</h3></li>
-                        <li><img class='skillIcons' src={webPic} alt='Web Applications' /><h3>Web Applications</h3></li>
-                        <li><img class='skillIcons' src={uiPic} alt='UI' /><h3>UX</h3></li>
+                        <li><img className='skillIcons' src={JsPic} alt='Javascript' /><h3>Javascript</h3></li>
+                        <li><img className='skillIcons' src={reactPic} alt='ReactJs' /><h3>ReactJs</h3></li>
+                        <li><img className='skillIcons' src={htmlPic} alt='HTML' /><h3>HTML</h3></li>
+                        <li><img className='skillIcons' src={cssPic} alt='CSS' /><h3>CSS/SASS</h3></li>
+                        <li><img className='skillIcons' src={webPic} alt='Web Applications' /><h3>Web Applications</h3></li>
+                        <li><img className='skillIcons' src={uiPic} alt='UI' /><h3>UX</h3></li>
                     </ul>
                 </section>
                 <section id='about'>

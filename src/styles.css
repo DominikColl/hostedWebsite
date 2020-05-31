@@ -48,6 +48,7 @@ table {
 #navList{
     color:orange;
     margin-right: 10%;
+    font-size: 1.4rem;
 }
 a,a:visited{
     color: white;
@@ -281,15 +282,21 @@ text-indent: 5px;
       margin: 2rem;
   }
   .techUsedCont p{
-      /* display: inline-block; */
-      /* border: 1px solid red; */
+    
       width: 40%;
   }
-  .techUsedCont ul{
+  .techUsedCont h2{
+      border-bottom: 3px solid #00c905;
+      padding:5px;
+      
+margin-bottom: .5rem;
+  }
+  .detailImgCont h1{
+      font-size: 2rem;
+  }
+  .techUsedCont ul{ 
       text-align: center;
       width:40%;
-     
-   
   }
   .desc,.techUsedCont ul{
     padding: 2rem;

@@ -8,10 +8,10 @@ class TwitterClone extends Component {
     render() {
         return (
             <Fragment>
-                <div class='detailImgCont'>
+                <div className='detailImgCont'>
                     <img src={Img} alt='Twitter Clone' />
                     <h1>Twitter Clone</h1>
-                    <section class='techUsedCont'>
+                    <section className='techUsedCont'>
                         <ul>
                             <h2>Tech Used</h2>
                             <li>ReactJs</li>
@@ -20,7 +20,7 @@ class TwitterClone extends Component {
                             <li>Version Control</li>
                             <li>API</li>
                         </ul>
-                        <p class='desc'>I built this project as my Capstone final project to demonstrate my ability to build a Fullstack application front and backend. This runs very similar to twitter where users sign up and can post, follow, like, and share posts. This is built using ReactJs and vanilla CSS for the frontend and for the backend is built with Node/Express, Sequelize,  and Postgre. Both the front end and backend are deployed using Heroku. This project can be found here and the repo will be found here.</p>
+                        <p className='desc'>I built this project as my Capstone final project to demonstrate my ability to build a Fullstack application front and backend. This runs very similar to twitter where users sign up and can post, follow, like, and share posts. This is built using ReactJs and vanilla CSS for the frontend and for the backend is built with Node/Express, Sequelize,  and Postgre. Both the front end and backend are deployed using Heroku. This project can be found here and the repo will be found here.</p>
                     </section>
                 </div>
             </Fragment>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import API from '../API'
+// import API from '../API'
 import '../styles.css'
 
 const encode = (data) => {
@@ -8,7 +8,7 @@ const encode = (data) => {
         .join("&");
 }
 class Landing extends Component {
-    state = { name: '', email: '' }
+    state = { name: '', email: '', message: '' }
     handleSubmit = e => {
         fetch("/", {
             method: "POST",
@@ -22,7 +22,7 @@ class Landing extends Component {
     };
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
     render() {
-        const { name, email } = this.state;
+        const { name, email, message } = this.state;
         return (
             <>
                 <h1>Form</h1>
@@ -37,11 +37,11 @@ class Landing extends Component {
                             Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
                         </label>
                     </p>
-                    {/* <p>
+                    <p>
                         <label>
                             Message: <textarea name="message" value={message} onChange={this.handleChange} />
                         </label>
-                    </p> */}
+                    </p>
                     <p>
                         <button type="submit">Send</button>
                     </p>

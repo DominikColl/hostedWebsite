@@ -24,8 +24,8 @@ class QuizAppDetail extends Component {
                                 <li>API</li>
                             </ul>
 
-                            <p className='desc'> Quiz app was created as a class project to help build my skills as a full-stack developer. It is built in two different versions once with PUG as the front end using Node&Express to contact an API talking to a database to be able to create read update and delete quizzes, questions, and answers. The second version of this application switches the front end to ReactJs with the same backend tech.  This application also includes a feature of being able to sign in using Google OAuth so the user does not need to create a new account to start using this application. The front end uses the Material-UI library to build the design. You can see the code for this project on Github here.
-</p>
+                            <p className='desc'> Quiz app was created as a class project to help build my skills as a full-stack developer. It is built in two different versions once with PUG as the front end using Node&Express to contact an API talking to a database to be able to create read update and delete quizzes, questions, and answers. The second version of this application switches the front end to ReactJs with the same backend tech.  This application also includes a feature of being able to sign in using Google OAuth so the user does not need to create a new account to start using this application. The front end uses the Material-UI library to build the design. You can see the code for this project on Github <a href='https://github.com/fs-tech-degs/capstone-project-2003-DominikColl' class='alinks'>here</a></p>
+
                         </section>
                     </div>
                 </div>

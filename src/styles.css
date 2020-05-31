@@ -321,3 +321,38 @@ border-radius: 10px;
   #aboutP{
       padding-bottom: 8rem;
   } 
+  #form{
+      display:inline-block;
+      width:35%;
+      text-align:center;
+      padding:1.5rem;
+      margin-top:2rem;
+      border:3px solid #00c905
+
+  }
+  #form input,#form textarea{
+      padding:1rem;
+      margin:1rem;
+  }
+  #contactList {
+      display:inline-block;
+      width:35%;
+      text-align:center;
+      margin-top:2rem;
+     
+      border:3px solid #00c905
+  }
+  #containerCon{
+      display:flex;
+      justify-content: space-around
+  }
+  #containerCon section ul{
+      margin-top: 1rem;
+      border-bottom: none;
+  }
+  #containerCon section ul li{
+      margin: 1rem;
+  }
+  .alinks{
+      border-bottom: 2px solid #00c905
+  }

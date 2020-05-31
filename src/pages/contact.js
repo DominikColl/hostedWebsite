@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import API from '../API'
+import { FaPhoneAlt, FaSearchLocation, FaLinkedin } from 'react-icons/fa'
 import '../styles.css'
 
 const encode = (data) => {
@@ -25,27 +26,36 @@ class Landing extends Component {
         const { name, email, message } = this.state;
         return (
             <>
-                <h1>Form</h1>
-                <form onSubmit={this.handleSubmit} name="contact" method='POST' data-netlify="true" >
-                    <p>
-                        <label>
-                            Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            Message: <textarea name="message" value={message} onChange={this.handleChange} />
-                        </label>
-                    </p>
-                    <p>
-                        <button type="submit">Send</button>
-                    </p>
-                </form>
+                <div id='containerCon'>
+                    <form onSubmit={this.handleSubmit} id='form' name="contact" method='POST' data-netlify="true" >
+                        <h1>Contact Me</h1>
+                        <p>
+                            <label>
+                                <input placeholder='Name' type="text" name="name" value={name} onChange={this.handleChange} />
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="email" placeholder='Email' name="email" value={email} onChange={this.handleChange} />
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <textarea placeholder='Your Message' name="message" value={message} onChange={this.handleChange} />
+                            </label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                    </form>
+                    <section id='contactList'>
+                        <ul>
+                            <li> <FaPhoneAlt />813-520-9292</li>
+                            <li><FaSearchLocation />Portland Oregon</li>
+                            <li><FaLinkedin /><a class='alinks' href='https://www.linkedin.com/in/dominik-coll-a0619b1a1/'>LinkedIn</a></li>
+                        </ul>
+                    </section>
+                </div>
             </>
         );
     }

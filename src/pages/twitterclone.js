@@ -20,7 +20,7 @@ class TwitterClone extends Component {
                             <li>Version Control</li>
                             <li>API</li>
                         </ul>
-                        <p className='desc'>I built this project as my Capstone final project to demonstrate my ability to build a Fullstack application front and backend. This runs very similar to twitter where users sign up and can post, follow, like, and share posts. This is built using ReactJs and vanilla CSS for the frontend and for the backend is built with Node/Express, Sequelize,  and Postgre. Both the front end and backend are deployed using Heroku. This project can be found <a href='https://memeitdomcoll.herokuapp.com/' class='alinks'>here</a>.</p>
+                        <p className='desc'>I built this project as my Capstone final project to demonstrate my ability to build a Fullstack application front and backend. This runs very similar to twitter where users sign up and can post, follow, like, and share posts. This is built using ReactJs and vanilla CSS for the frontend and the backend is built with Node/Express, Sequelize, and Postgre. Both the front end and backend are deployed using Heroku. This project can be found <a href='https://memeitdomcoll.herokuapp.com/' class='alinks'>here</a>.</p>
                     </section>
                 </div>
             </Fragment>

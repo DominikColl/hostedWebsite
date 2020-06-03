@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import '../styles.css'
-import i from '../img/aboutPic.png'
+import i from '../img/photome.png'
 import JsPic from '../img/js.png'
 import htmlPic from '../img/html.png'
 import reactPic from '../img/react.png'

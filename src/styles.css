@@ -235,6 +235,12 @@ text-indent: 5px;
     width:90px;
     height:90px;
 }
+
+@media only screen and (max-width: 400px) {
+input,textarea{
+     width: 70px;
+ }
+    }
 @media only screen and (max-width: 544px) {
     .skillIcons{
         width:40px;

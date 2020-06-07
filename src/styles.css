@@ -140,11 +140,7 @@ position: relative;
 text-indent: 5px;
 }
 
-.appp{
-    /* wrapper */
-    margin-left: 5%;
-    width: 90%;
-}
+
 #aboutPic{
     width: 30%;
 }
@@ -224,10 +220,49 @@ text-indent: 5px;
 #skillsList{
     text-align: center;
 }
+.appp{
+    /* wrapper */
+    margin-left: 5%;
+    width: 90%;
+}
+@media only screen and (max-width: 340px) {
+    .appp {
+     margin: 0;
+     width: 100%;
+    }
+  }
 .skillIcons{
     width:90px;
     height:90px;
 }
+@media only screen and (max-width: 544px) {
+    .skillIcons{
+        width:40px;
+        height:40px;
+    }
+    .skillIcons h3{
+       font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .skillIcons{
+        width:70px;
+        height:70px;
+    }
+    .skillIcons h3{
+       font-size: 1.4rem;
+       
+    }
+    #skillsList{
+       display: block;
+    }
+    #skillsList li {
+        margin-bottom: 1rem;
+     }
+     #skillsList li:last-of-type {
+        margin-bottom: 0;
+     }
+  }
 #about h2{
     margin-bottom: 2rem;
 }
@@ -356,3 +391,4 @@ border-radius: 10px;
   .alinks{
       border-bottom: 2px solid #00c905
   }
+ 

@@ -11,6 +11,9 @@ import Particles from 'react-particles-js';
 import { Link } from 'react-router-dom'
 class Landing extends Component {
     state = {}
+    componentDidMount = () => {
+        window.addEventListener('scroll', this.handleScroll, true);
+    }
     render() {
         return (
             <Fragment>
@@ -54,30 +57,30 @@ class Landing extends Component {
                 <section id='projectSection'>
                     <h2>Projects</h2>
                     <ul id='projectList'>
-                        <Link to='/quizapp'> <li id='quizApp'><p>Quiz App</p></li></Link>
-                        <Link to='/liveFmAPI'>  <li id='livefm'><p>LiveFm API</p></li></Link>
-                        <Link to='/taskmanager'><li id='task'><p>Task Manager</p></li></Link>
-                        <Link to='/twitterclone'><li id='twitClone'><p>Twitter Clone</p></li></Link>
+                        <Link className='swing-in-top-fwd' to='/quizapp'> <li id='quizApp'><p>Quiz App</p></li></Link>
+                        <Link className='swing-in-top-fwd' to='/liveFmAPI'>  <li id='livefm'><p>LiveFm API</p></li></Link>
+                        <Link className='swing-in-top-fwd' to='/taskmanager'><li id='task'><p>Task Manager</p></li></Link>
+                        <Link className='swing-in-top-fwd' to='/twitterclone'><li id='twitClone'><p>Twitter Clone</p></li></Link>
                     </ul>
                 </section>
                 <section id='blogSection'>
                     <h2>Tutorials</h2>
                     <ul id='blogList'>
-                        <Link to='/versioncontrol'> <li id='vc'><p>Version Control (Coming Soon!)</p></li></Link>
-                        <Link to='/mvc'><li id='mvc'><p>MVC (Coming Soon!)</p></li></Link>
-                        <Link to='/'> <li id='reactjs'><p>ReactJs Intro (Coming Soon!)</p></li></Link>
-                        <Link to='/'> <li id='particles'><p>React Particles (Coming Soon!)</p></li></Link>
+                        <Link className='swing-in-top-fwd' to='/versioncontrol'> <li id='vc'><p>Version Control (Coming Soon!)</p></li></Link>
+                        <Link className='swing-in-top-fwd' to='/mvc'><li id='mvc'><p>MVC (Coming Soon!)</p></li></Link>
+                        <Link className='swing-in-top-fwd' to='/'> <li id='reactjs'><p>ReactJs Intro (Coming Soon!)</p></li></Link>
+                        <Link className='swing-in-top-fwd' to='/'> <li id='particles'><p>React Particles (Coming Soon!)</p></li></Link>
                     </ul>
                 </section>
                 <section id='skillsSection'>
                     <h2>Skills Include</h2>
                     <ul id='skillsList'>
-                        <li><img className='skillIcons' src={JsPic} alt='Javascript' /><h3>Javascript</h3></li>
-                        <li><img className='skillIcons' src={reactPic} alt='ReactJs' /><h3>ReactJs</h3></li>
-                        <li><img className='skillIcons' src={htmlPic} alt='HTML' /><h3>HTML</h3></li>
-                        <li><img className='skillIcons' src={cssPic} alt='CSS' /><h3>CSS/SASS</h3></li>
-                        <li><img className='skillIcons' src={webPic} alt='Web Applications' /><h3>Web Applications</h3></li>
-                        <li><img className='skillIcons' src={uiPic} alt='UI' /><h3>UX</h3></li>
+                        <li><img className='skillIcons swing-in-top-fwd' src={JsPic} alt='Javascript' /><h3>Javascript</h3></li>
+                        <li><img className='skillIcons swing-in-top-fwd' src={reactPic} alt='ReactJs' /><h3>ReactJs</h3></li>
+                        <li><img className='skillIcons swing-in-top-fwd' src={htmlPic} alt='HTML' /><h3>HTML</h3></li>
+                        <li><img className='skillIcons swing-in-top-fwd' src={cssPic} alt='CSS' /><h3>CSS/SASS</h3></li>
+                        <li><img className='skillIcons swing-in-top-fwd' src={webPic} alt='Web Applications' /><h3>Web Applications</h3></li>
+                        <li><img className='skillIcons swing-in-top-fwd' src={uiPic} alt='UI' /><h3>UX</h3></li>
                     </ul>
                 </section>
                 <section id='about'>

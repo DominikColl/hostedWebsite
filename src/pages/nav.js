@@ -5,7 +5,7 @@ class Nav extends Component {
 
     state = { homePage: true }
     render() {
-        const t = <li><a className='navLink' id='nav2' href='#abouttt'>About</a></li>
+        const t = <li><a className='navLink' id='nav2' href='/#abouttt'>About</a></li>
 
         const about = () => {
             const loc = window.location.href
@@ -23,6 +23,7 @@ class Nav extends Component {
                 <ul id='navList'>
                     <li ><Link className='navLink' id='nav1' to='/'>Home</Link></li>
                     {/* {about()} */}
+                    <li><a className='navLink' id='nav2' href='/#abouttt'>About</a></li>
                     <li><Link className='navLink' to='/contact' id='nav3'>Contact</Link></li>
                 </ul>
             </div >);

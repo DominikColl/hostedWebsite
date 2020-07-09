@@ -10,7 +10,7 @@ class Nav extends Component {
         const about = () => {
             const loc = window.location.href
             console.log(loc)
-            if (loc === 'http://localhost:3000/' || loc === 'dominikcoll.com') {
+            if (loc === 'http://localhost:3000/' || loc === 'https://www.dominikcoll.com/') {
                 return t
             } else {
                 console.log('Not on home page')

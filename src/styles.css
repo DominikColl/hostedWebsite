@@ -308,6 +308,9 @@ input,textarea{
        font-size: 1.4rem;
        
     }
+    #projectList li p,#blogList li p{
+        font-size: 11px;
+    }
     #skillsList{
        display: block;
     }

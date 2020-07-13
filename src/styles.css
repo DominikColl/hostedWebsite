@@ -118,14 +118,19 @@ position: relative;
     color:white;
     font-size: 2rem;
 }
+#projectList, #blogList{
+    display: flex;
+    justify-content: space-between;
+}
 #projectList li,#blogList li{
     border:3px solid #00c905;
     height: 160px;
-    width:86.7%;
-    margin-right: 3%;
+    /* width:86.7%; */
+   margin:.4rem;
     position: relative;
     top:0;
     transition: top ease 1s;
+
 }
 #projectList a,#projectList a:visited,#blogList a,#blogList a:visited{
     width:100%;
@@ -133,6 +138,50 @@ position: relative;
 #projectList li:hover,#blogList li:hover{
     top:-15px;
     }
+    .hvr-float-shadow {
+        transition: top ease 1s;
+       display: inline-block;
+       vertical-align: middle;
+       -webkit-transform: perspective(1px) translateZ(0);
+       transform: perspective(1px) translateZ(0);
+       box-shadow: 0 0 1px RGBA(0,201,5,0);
+       position: relative;
+       -webkit-transition-duration: 1s;
+       transition-duration: s;
+       -webkit-transition-property: transform;
+       transition-property: transform;
+     }
+     .hvr-float-shadow:before {
+       pointer-events: none;
+       position: absolute;
+       z-index: -1;
+       content: '';
+       top: 100%;
+       left: 5%;
+       height: 10px;
+       width: 90%;
+       opacity: 0;
+       background: -webkit-radial-gradient(center, ellipse, RGBA(0,201,5,0.34) 0%, rgba(0, 0, 0, 0) 80%);
+       background: radial-gradient(ellipse at center, RGBA(0,201,5,0.34) 0%, rgba(0, 0, 0, 0) 80%);
+       /* W3C */
+       -webkit-transition-duration: .5s;
+       transition-duration: .5s;
+       -webkit-transition-property: transform, opacity;
+       transition-property: transform, opacity;
+     }
+     .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+       -webkit-transform: translateY(-5px);
+       transform: translateY(-15px);
+       /* move the element up by 5px */
+     }
+     .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+       opacity: 1;
+       -webkit-transform: translateY(5px);
+       transform: translateY(10px);
+       /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+     }
+     
+     
 #projectList li p,#blogList li p {
     position: absolute;
     bottom: 0;

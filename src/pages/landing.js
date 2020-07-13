@@ -57,19 +57,19 @@ class Landing extends Component {
                 <section id='projectSection'>
                     <h2>Projects</h2>
                     <ul id='projectList'>
-                        <Link className='swing-in-top-fwd' to='/quizapp'> <li id='quizApp'><p>Quiz App</p></li></Link>
-                        <Link className='swing-in-top-fwd' to='/liveFmAPI'>  <li id='livefm'><p>LiveFm API</p></li></Link>
-                        <Link className='swing-in-top-fwd' to='/taskmanager'><li id='task'><p>Task Manager</p></li></Link>
-                        <Link className='swing-in-top-fwd' to='/twitterclone'><li id='twitClone'><p>Twitter Clone</p></li></Link>
+                        <Link className='swing-in-top-fwd hvr-float-shadow' to='/quizapp'> <li id='quizApp'><p>Quiz App</p></li></Link>
+                        <Link className='swing-in-top-fwd hvr-float-shadow' to='/liveFmAPI'>  <li id='livefm'><p>LiveFm API</p></li></Link>
+                        <Link className='swing-in-top-fwd hvr-float-shadow' to='/taskmanager'><li id='task'><p>Task Manager</p></li></Link>
+                        <Link className='swing-in-top-fwd hvr-float-shadow' to='/twitterclone'><li id='twitClone'><p>Twitter Clone</p></li></Link>
                     </ul>
                 </section>
                 <section id='blogSection'>
                     <h2>Tutorials</h2>
                     <ul id='blogList'>
-                        <Link className='swing-in-top-fwd' to='/versioncontrol'> <li id='vc'><p>Version Control (Coming Soon!)</p></li></Link>
-                        <Link className='swing-in-top-fwd' to='/mvc'><li id='mvc'><p>MVC (Coming Soon!)</p></li></Link>
-                        <Link className='swing-in-top-fwd' to='/'> <li id='reactjs'><p>ReactJs Intro (Coming Soon!)</p></li></Link>
-                        <Link className='swing-in-top-fwd' to='/'> <li id='particles'><p>React Particles (Coming Soon!)</p></li></Link>
+                        <Link className='swing-in-top-fwd hvr-float-shadow' to='/versioncontrol'> <li id='vc'><p>Version Control (Coming Soon!)</p></li></Link>
+                        <Link className='swing-in-top-fwd hvr-float-shadow' to='/mvc'><li id='mvc'><p>MVC (Coming Soon!)</p></li></Link>
+                        <Link className='swing-in-top-fwd hvr-float-shadow' to='/'> <li id='reactjs'><p>ReactJs Intro (Coming Soon!)</p></li></Link>
+                        <Link className='swing-in-top-fwd hvr-float-shadow' to='/'> <li id='particles'><p>React Particles (Coming Soon!)</p></li></Link>
                     </ul>
                 </section>
                 <section id='skillsSection'>

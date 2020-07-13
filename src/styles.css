@@ -497,4 +497,6 @@ border-radius: 10px;
       opacity: 1;
     }
   }
-  
+  .contactIcon{
+      margin-right: .3rem;
+  }

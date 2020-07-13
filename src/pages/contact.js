@@ -50,9 +50,9 @@ class Landing extends Component {
                     </form>
                     <section id='contactList'>
                         <ul>
-                            <li> <FaPhoneAlt />813-520-9292</li>
-                            <li><FaSearchLocation />Portland Oregon</li>
-                            <li><FaLinkedin /><a class='alinks' href='https://www.linkedin.com/in/dominik-coll-a0619b1a1/'>LinkedIn</a></li>
+                            <li> <div class='contactIcon'><FaPhoneAlt /></div>813-520-9292</li>
+                            <li><div class='contactIcon'><FaSearchLocation /></div>Portland Oregon</li>
+                            <li><div class='contactIcon'><FaLinkedin /></div><a class='alinks' href='https://www.linkedin.com/in/dominik-coll-a0619b1a1/'>LinkedIn</a></li>
                         </ul>
                     </section>
                 </div>
